@@ -316,7 +316,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   header: {
-    flexDirection: 'row',
+    flexDirection: 'row-reverse',
   },
   item: {
     justifyContent: 'center',
@@ -329,7 +329,7 @@ const styles = StyleSheet.create({
     right: TITLE_OFFSET,
     top: 0,
     position: 'absolute',
-    alignItems: Platform.OS === 'ios' ? 'center' : 'flex-start',
+    alignItems: Platform.OS === 'ios' ? 'center' : 'flex-end',
   },
   left: {
     left: 0,

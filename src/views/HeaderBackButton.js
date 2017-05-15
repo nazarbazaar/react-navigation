@@ -121,14 +121,14 @@ const styles = StyleSheet.create({
         marginRight: 22,
         marginVertical: 12,
         resizeMode: 'contain',
-        transform: [{ scaleX: I18nManager.isRTL ? -1 : 1 }],
+        transform: [{ scaleX: -1 }],
       }
     : {
         height: 24,
         width: 24,
         margin: 16,
         resizeMode: 'contain',
-        transform: [{ scaleX: I18nManager.isRTL ? -1 : 1 }],
+        transform: [{ scaleX: -1 }],
       },
   iconWithTitle: Platform.OS === 'ios'
     ? {
